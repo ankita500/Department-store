@@ -1,0 +1,79 @@
+<?php
+?>
+<html>
+<head>
+<title>Fortune Department store</title>
+<link href="pic.png" rel="icon"/>
+<style>
+body{margin:0px;}
+#main{height:100%;width:100%;background-color:white;}
+
+#msg{height:5%;width:100%;background-color:yellow;}
+#menu{height:10%;width:100%;background-color:gray;}
+#image{height:30%;width:100%;background-color:orange;}
+#details{height:50%;width:100%;background-color:green;}
+#copyright{height:5%;width:100%;background-color:blue;}
+
+#Ad{height:100%;width:40%;background-color:pink;float:left;}
+#misc{height:100%;width:60%;background-color:brown;float:left;}
+
+
+#event_pic{height:100%;width:100%;background-color:green;}
+
+</style>
+<style>
+#menu>a>img{height:90%;margin:2px;float:left;}
+#menu>ul{width:60%;height:10%;float:left;}
+#top_menu>li{list-style:None;display:inline-block;}
+#top_menu>li>a{font-size:15px;color:white;padding:15px 20px;background-color:blue;}
+#image>img{height:100%;width:100%;}
+#Ad>img{height:80%;width:100%;}
+
+#event_pic>marquee>img{height:60%;width:40%;}
+
+</style>
+</head>
+<body>
+<div id="main">
+<div id="msg">
+<marquee onmouseover="this.stop();" onmouseout="this.start();"><b>Fortune Department Store</b></marquee>
+</div>
+<div id="menu">
+<a href="https://aictech.co.in"><img src="pic.png"/></a>
+<ul id="top_menu">
+
+<li><a href="admin.php">Admin</a></li>
+<li><a href="clerk.php">Clerk</a></li>
+
+
+</ul>
+</div>
+<div id="image">
+<img src="picture1.jpg">
+</div>
+<div id="details">
+     <div id="Ad" style="font-size:25;">
+	 <img src="picture.png">
+	 <b><I>Hurry!offer valid till 30th June</b></I>
+     </div>
+   
+    <div id="misc">
+        
+		 <div id="event_pic">
+		 <mark>Events</mark>
+		 <marquee>
+		 <img src="picture3.png"/>
+		 <img src="picture2.jpg"/>
+		 <img src="picture4.jpg"/>
+		 </marquee>
+         </div>
+		 
+	</div>	 
+	    
+</div>
+<div id="copyright">
+<marquee onmouseover="this.stop();" onmouseout="this.start();"><b>All rights Reserve &copy</b></marquee>
+</div>
+</div>
+</body>
+</html>
